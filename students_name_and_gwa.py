@@ -1,5 +1,10 @@
+import re
+student_gwa = []
 # read a file contains names of student together with gwa
-with open("student_name_gwa.txt", "r") as student_name_gwa:
+with open("students_name_gwa.txt", "r") as student_name_gwa:
     for line in student_name_gwa:
-        
+        for i in re.findall(r'\d+(?:\.\d+)?', line):
+            student_gwa.append(i)
+
+print(student_gwa)
 # output name of student with the highest gwa
