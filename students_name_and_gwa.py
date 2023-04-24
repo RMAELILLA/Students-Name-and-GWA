@@ -5,4 +5,5 @@ with open("students_name_gwa.txt", "r") as student_name_gwa:
     for line in student_name_gwa:
         name, gwa = line.strip().split(",")
         students_files[name] = float(gwa)
+
 # output name of student with the highest gwa
