@@ -9,6 +9,7 @@ with open("students_name_gwa.txt", "r") as student_name_gwa:
             if student_gwa == 1.0:
                 for line in student_name_gwa:
                     student_name == 1.0
+                    
 print(student_name)
 print(student_gwa)
 # output name of student with the highest gwa
