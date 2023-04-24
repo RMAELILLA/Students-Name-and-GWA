@@ -15,6 +15,6 @@ Jia , 1.3
 Aaron , 2.7
 Papi , 5.0
 Ken , 2.5
-Lala , 3.5
+Lala , 1.0
 Morry , 1.7
-Lyka , 3.7
+Lyka , 1.0
