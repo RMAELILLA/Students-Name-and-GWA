@@ -9,4 +9,6 @@ with open("students_name_gwa.txt", "r") as student_name_gwa:
 highest_student = min(students_files.values())
 for name, gwa in students_files.items():
     if gwa == highest_student:
-        print(f"The student who has the highest gwa is {name} with gwa of {gwa}")
+        print('\033[0;30;47m*' *150)
+        print(f"The student who has the highest gwa is {name} with gwa of {gwa}".center(150, "*"))
+        print('\033[0;30;47m*' *150)
